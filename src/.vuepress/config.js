@@ -71,9 +71,15 @@ module.exports = resolve({
       display: true,
     },
 
+    hostname: "https://hope-studio.innenu.com",
+
     markdown: {
       enableAll: true,
     },
+
+    repo: "https://github.com/Hope-Studio/Hope-Studio.github.io",
+    repoLabel: "Github",
+    docsDir: "src",
 
     comment: {
       type: "valine",

@@ -1,0 +1,24 @@
+{
+  "name": "hope-studio",
+  "version": "1.0.0",
+  "description": "Docs for New Media",
+  "scripts": {
+    "serve": "vuepress dev src",
+    "cleanServe": "vuepress dev src --no-cache",
+    "build": "vuepress build src",
+    "super:build": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build src",
+    "lint": "prettier --check --write . && markdownlint **/*.md --ignore node_modules --fix",
+    "lint:check": "prettier --check . && markdownlint **/*.md --ignore node_modules",
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "author": "Mr.Hope",
+  "license": "No license",
+  "dependencies": {
+    "vuepress": "1.5.4",
+    "vuepress-theme-hope": "0.7.2"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "0.23.2",
+    "prettier": "2.1.1"
+  }
+}

@@ -67,6 +67,7 @@ module.exports = resolve({
     author: "Mr.Hope",
 
     footer: {
+      copyright: "Copyright © 2017-present Hope Studio",
       display: true,
     },
 
@@ -78,10 +79,6 @@ module.exports = resolve({
       type: "valine",
       appId: "2jQJfhjStNwFWKa1YBL1XFSI-gzGzoHsz",
       appKey: "UgkCbHl7agg9y2uRCAu0Pcwp",
-    },
-
-    blog: {
-      sidebarDisplay: "mobile",
     },
   },
 });

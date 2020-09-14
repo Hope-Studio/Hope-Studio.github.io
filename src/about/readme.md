@@ -1,10 +1,9 @@
 ---
+title: 工作室介绍
 icon: info
 author: Mr.Hope
 time: 2020-09-13
 ---
-
-# 工作室介绍
 
 ## 室长
 

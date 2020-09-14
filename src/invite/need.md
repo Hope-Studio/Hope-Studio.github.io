@@ -1,10 +1,9 @@
 ---
+title: 希望工作室招新
 icon: notice
 author: Mr.Hope
 time: 2020-09-13
----
-
-# 希望工作室招新
+--- 
 
 ## 主要方向
 

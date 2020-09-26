@@ -32,4 +32,6 @@ footer: Copyright © 2017-present Hope Studio
 
 ## 工作室培训安排
 
-- [9/14 - 9/20 工作安排](plan/week1.md)
+- [9/13 - 9/19 工作计划](plan/week1.md)
+
+- [9/20 - 9/26 工作计划](plan/week2.md)

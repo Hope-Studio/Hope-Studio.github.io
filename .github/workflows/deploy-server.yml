@@ -1,8 +1,11 @@
 name: Deploy blog to server
 
 on:
-  - deployment
-  - page_build
+  deployment:
+  page_build:
+  push:
+    branches:
+      - gh_pages
 
 jobs:
   deploy:

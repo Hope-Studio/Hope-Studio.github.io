@@ -14,8 +14,8 @@
   "author": "Mr.Hope",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "1.6.0",
-    "vuepress-theme-hope": "0.7.5"
+    "vuepress": "1.7.1",
+    "vuepress-theme-hope": "1.2.0"
   },
   "devDependencies": {
     "markdownlint-cli": "0.24.0",

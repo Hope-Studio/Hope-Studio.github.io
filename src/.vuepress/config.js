@@ -1,6 +1,6 @@
-const resolve = require("vuepress-theme-hope/resolve");
+const { config } = require("vuepress-theme-hope");
 
-module.exports = resolve({
+module.exports = config({
   title: "希望工作室",
   description: "希望工作室文档",
 
@@ -17,6 +17,7 @@ module.exports = resolve({
   dest: "./dist",
 
   themeConfig: {
+    baseLang: "zh-CN",
     logo: "/logo.png",
 
     nav: [
@@ -37,6 +38,7 @@ module.exports = resolve({
         items: [{ text: "第一周", link: "week1", icon: "plan" }],
       },
     ],
+
     sidebar: {
       "/": [
         "",
@@ -59,7 +61,7 @@ module.exports = resolve({
           icon: "plan",
           prefix: "plan/",
           collapsable: false,
-          children: ["week1"],
+          children: ["week1", "week2", "week3", "week4"],
         },
       ],
     },
@@ -73,18 +75,18 @@ module.exports = resolve({
 
     hostname: "https://hope-studio.innenu.com",
 
-    markdown: {
+    comment: {
+      type: "valine",
+      appId: "2jQJfhjStNwFWKa1YBL1XFSI-gzGzoHsz",
+      appKey: "UgkCbHl7agg9y2uRCAu0Pcwp",
+    },
+
+    mdEnhance: {
       enableAll: true,
     },
 
     repo: "https://github.com/Hope-Studio/Hope-Studio.github.io",
     repoLabel: "Github",
     docsDir: "src",
-
-    comment: {
-      type: "valine",
-      appId: "2jQJfhjStNwFWKa1YBL1XFSI-gzGzoHsz",
-      appKey: "UgkCbHl7agg9y2uRCAu0Pcwp",
-    },
   },
 });

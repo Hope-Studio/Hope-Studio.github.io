@@ -1,7 +1,7 @@
 {
   "name": "hope-studio",
   "version": "1.0.0",
-  "description": "Docs for New Media",
+  "description": "Official website for Hope Studio",
   "scripts": {
     "serve": "vuepress dev src",
     "cleanServe": "vuepress dev src --no-cache",

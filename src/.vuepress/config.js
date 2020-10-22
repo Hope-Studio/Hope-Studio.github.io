@@ -25,6 +25,7 @@ module.exports = config({
 
     nav: [
       { text: "主页", link: "/", icon: "home" },
+      { text: "工作室介绍", link: "/about/", icon: "info" },
       {
         text: "招新",
         icon: "profile",
@@ -33,12 +34,6 @@ module.exports = config({
           { text: "招新细则", link: "need", icon: "notice" },
           { text: "情况说明", link: "notice", icon: "info" },
         ],
-      },
-      {
-        text: "工作计划",
-        icon: "plan",
-        prefix: "/plan/",
-        items: [{ text: "第一周", link: "week1", icon: "plan" }],
       },
     ],
 
@@ -58,13 +53,6 @@ module.exports = config({
           prefix: "invite/",
           collapsable: false,
           children: ["need", "notice"],
-        },
-        {
-          title: "工作计划",
-          icon: "plan",
-          prefix: "plan/",
-          collapsable: false,
-          children: ["week1", "week2", "week3", "week4"],
         },
       ],
     },
@@ -113,6 +101,10 @@ module.exports = config({
             purpose: "maskable",
             type: "image/png",
           },
+        ],
+        shortcuts: [
+          { name: "关于工作室", url: "/about/" },
+          { name: "纳新说明", url: "/invite/need/" },
         ],
       },
     },

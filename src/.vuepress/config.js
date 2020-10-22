@@ -2,14 +2,17 @@ const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
   title: "希望工作室",
-  description: "希望工作室文档",
+  description: "希望工作室官网",
 
   headOption: {
     icon: "/favicon.ico",
     pwa: {
       manifest: "/manifest.json",
-      themeColor: "#46bd87",
+      themeColor: "#5c92d1",
       appleStatusBarColor: "black",
+      appleIcon: "/assets/icon/apple-icon-152.png",
+      msTileImage: "/assets/icon/ms-icon-144.png",
+      msTileColor: "#ffffff",
     },
   },
 
@@ -83,6 +86,35 @@ module.exports = config({
 
     mdEnhance: {
       enableAll: true,
+    },
+
+    pwa: {
+      manifest: {
+        icons: [
+          {
+            src: "/assets/icon/chrome-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+        ],
+      },
     },
 
     repo: "https://github.com/Hope-Studio/Hope-Studio.github.io",

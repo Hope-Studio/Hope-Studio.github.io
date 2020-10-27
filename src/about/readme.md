@@ -3,9 +3,14 @@ title: 工作室介绍
 icon: info
 author: Mr.Hope
 time: 2020-09-13
+layout: Slides
 ---
 
 @slidestart
+
+希望工作室成立于 2017 年，是一家年轻、有活力的工作室。
+
+---
 
 ## 室长
 
@@ -15,7 +20,7 @@ Mr.Hope，物理学院 2020 届本科生。
 
 拿到了字节跳动的 Offer。
 
-Mr.Hope 是一个非常和气与帅气 😎 的人。
+Mr.Hope 是一个非常和气的人。😎
 
 ---
 
@@ -62,7 +67,3 @@ Mr.Hope 是一个非常和气与帅气 😎 的人。
 信息科学与技术学院 2020 级本科生
 
 @slideend
-
-## 主要培训资料
-
-- [Mr.Hope 的博客](blog.md)

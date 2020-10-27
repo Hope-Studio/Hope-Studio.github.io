@@ -40,19 +40,14 @@ module.exports = config({
     sidebar: {
       "/": [
         "",
-        {
-          title: "工作室介绍",
-          icon: "info",
-          prefix: "about/",
-          collapsable: false,
-          children: ["", "blog"],
-        },
+        "about/",
+        "resource/",
         {
           title: "工作室招新",
           icon: "profile",
           prefix: "invite/",
           collapsable: false,
-          children: ["need", "notice"],
+          children: ["", "content", "need", "notice"],
         },
       ],
     },

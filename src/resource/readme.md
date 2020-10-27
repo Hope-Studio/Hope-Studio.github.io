@@ -1,5 +1,5 @@
 ---
-title: 博客介绍
+title: 学习资源
 icon: info
 author: Mr.Hope
 time: 2020-09-13

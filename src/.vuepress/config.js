@@ -31,6 +31,8 @@ module.exports = config({
         icon: "profile",
         prefix: "/invite/",
         items: [
+          { text: "招新总览", link: "", icon: "profile" },
+          { text: "学习工作内容", link: "content", icon: "discover" },
           { text: "招新细则", link: "need", icon: "notice" },
           { text: "情况说明", link: "notice", icon: "info" },
         ],

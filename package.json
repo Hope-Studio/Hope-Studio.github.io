@@ -1,7 +1,7 @@
 {
   "name": "hope-studio",
   "version": "1.0.0",
-  "description": "Docs for New Media",
+  "description": "Official website for Hope Studio",
   "scripts": {
     "serve": "vuepress dev src",
     "cleanServe": "vuepress dev src --no-cache",
@@ -14,11 +14,11 @@
   "author": "Mr.Hope",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "1.6.0",
-    "vuepress-theme-hope": "0.7.4"
+    "vuepress": "1.7.1",
+    "vuepress-theme-hope": "1.5.0-beta.0"
   },
   "devDependencies": {
-    "markdownlint-cli": "0.23.2",
+    "markdownlint-cli": "0.24.0",
     "prettier": "2.1.2"
   }
 }

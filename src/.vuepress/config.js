@@ -73,6 +73,10 @@ module.exports = config({
       enableAll: true,
     },
 
+    lastUpdate: {
+      timezone: "Asia/Shanghai",
+    },
+
     pwa: {
       manifest: {
         icons: [

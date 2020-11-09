@@ -3,7 +3,7 @@ title: 工作室介绍
 icon: info
 author: Mr.Hope
 time: 2020-09-13
-layout: Slides
+layout: Slide
 ---
 
 @slidestart

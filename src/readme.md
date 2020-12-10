@@ -12,8 +12,7 @@ action:
   - text: 加入我们 ❤
     link: /invite/
 
-copyrightText: false
-footer: Copyright © 2017-present Hope Studio
+footer: '<a href="http://beian.miit.gov.cn/" target="_blank">备案号: 辽ICP备18007023-4号</a>'
 ---
 
 ## 工作室介绍

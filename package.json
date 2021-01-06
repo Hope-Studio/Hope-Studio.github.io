@@ -14,7 +14,7 @@
   "author": "Mr.Hope",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "1.7.1",
+    "vuepress": "1.8.0",
     "vuepress-theme-hope": "1.7.8"
   },
   "devDependencies": {

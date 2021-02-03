@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://hope-studio.innenu.comsitemap.xml
+Sitemap: https://hope-studio.innenu.com/sitemap.xml

@@ -12,9 +12,9 @@
       "title": "工作室介绍",
       "url": "https://hope-studio.innenu.com/about/",
       "id": "https://hope-studio.innenu.com/about/",
-      "content_html": "<i>Not supported content</i>",
+      "content_html": "\n<i>Not supported content</i>",
       "date_published": "2020-09-13T00:00:00.000Z",
-      "date_modified": "2020-12-10T05:34:17.000Z",
+      "date_modified": "2021-02-03T13:37:13.000Z",
       "authors": [
         {
           "name": "Mr.Hope"
@@ -83,7 +83,7 @@
       "url": "https://hope-studio.innenu.com/",
       "id": "https://hope-studio.innenu.com/",
       "content_html": "<h2 id=\"工作室介绍\"> 工作室介绍</h2>\n<ul>\n<li>\n<p><a href=\"./about/\">成员介绍</a></p>\n</li>\n<li>\n<p><a href=\"./resource/\">培训资料参考</a></p>\n</li>\n</ul>\n<h2 id=\"工作室招新\"> 工作室招新</h2>\n<ul>\n<li>\n<p><a href=\"./invite/\">招新总览</a></p>\n</li>\n<li>\n<p><a href=\"./invite/content.html\">学习与工作内容</a></p>\n</li>\n<li>\n<p><a href=\"./invite/need.html\">招新要求</a></p>\n</li>\n<li>\n<p><a href=\"./invite/notice.html\">招新须知</a></p>\n</li>\n</ul>\n",
-      "date_modified": "2020-12-10T05:34:17.000Z",
+      "date_modified": "2021-02-03T13:37:13.000Z",
       "authors": [
         {
           "name": "Mr.Hope"

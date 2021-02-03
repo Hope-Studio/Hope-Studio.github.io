@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-01-25T16:30:07.714Z</updated>
+  <updated>2021-02-03T13:38:36.223Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://hope-studio.innenu.com/atom.xml"/>
   <link rel="alternate" href="https://hope-studio.innenu.com/"/>
@@ -18,8 +18,9 @@
     <title type="html">工作室介绍</title>
     <id>https://hope-studio.innenu.com/about/</id>
     <link href="https://hope-studio.innenu.com/about/"/>
-    <updated>2020-12-10T05:34:17.000Z</updated>
-    <content type="html"><![CDATA[<i>Not supported content</i>]]></content>
+    <updated>2021-02-03T13:37:13.000Z</updated>
+    <content type="html"><![CDATA[
+<i>Not supported content</i>]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
@@ -358,7 +359,7 @@
     <title type="html">希望工作室</title>
     <id>https://hope-studio.innenu.com/</id>
     <link href="https://hope-studio.innenu.com/"/>
-    <updated>2020-12-10T05:34:17.000Z</updated>
+    <updated>2021-02-03T13:37:13.000Z</updated>
     <content type="html"><![CDATA[<h2 id="工作室介绍"> 工作室介绍</h2>
 <ul>
 <li>

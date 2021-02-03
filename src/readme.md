@@ -8,9 +8,11 @@ tagline: Where there is light, there is hope.
 action:
   - text: 工作室介绍 💡
     link: /about/
+    type: primary
 
   - text: 加入我们 ❤
     link: /invite/
+    type: primary
 
 footer: '<a href="http://beian.miit.gov.cn/" target="_blank">备案号: 辽ICP备18007023-4号</a>'
 ---

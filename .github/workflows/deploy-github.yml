@@ -29,8 +29,8 @@ jobs:
         if: steps.node-modules.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile
 
-      - name: Build Blog
-        run: yarn run super:build
+      - name: Build Website
+        run: yarn run build:super
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3

@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "vuepress": "1.8.2",
-    "vuepress-theme-hope": "1.10.0"
+    "vuepress-theme-hope": "1.11.2"
   },
   "devDependencies": {
     "markdownlint-cli": "0.26.0",

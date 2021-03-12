@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-25T02:37:09.800Z</updated>
+  <updated>2021-03-12T11:42:38.880Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://hope-studio.innenu.com/atom.xml"/>
   <link rel="alternate" href="https://hope-studio.innenu.com/"/>
@@ -145,7 +145,7 @@
     <title type="html">招新要求</title>
     <id>https://hope-studio.innenu.com/invite/need/</id>
     <link href="https://hope-studio.innenu.com/invite/need/"/>
-    <updated>2020-12-10T05:34:17.000Z</updated>
+    <updated>2021-03-12T11:39:28.000Z</updated>
     <content type="html"><![CDATA[<p>工作室没有太多的要求，相关信息已经在下方详细列出。</p>
 <h2 id="不需要"> 不需要</h2>
 <h3 id="相关工作经验"> 相关工作经验 ❌</h3>
@@ -178,7 +178,7 @@
 <p>真诚提示您: 不必花费大半年学习一个不感兴趣，毕业后不会使用的技能。</p>
 </div>
 <h3 id="自律、自觉"> 自律、自觉 ⚠️</h3>
-<p>工作室任务按周分配，请<strong>自主学习、工作</strong>。</p>
+<p>在学习阶段我们采取道尔顿制教学方式，在工作阶段工作室任务按周分配，请<strong>自主学习、工作</strong>。</p>
 <div><p>注意</p>
 <p>工作室不会成天拎着您的耳朵喊您学习或工作。</p>
 <p>所以如果您“不自律不自觉，动不动就忘了学”，请不要报名。</p>
@@ -359,11 +359,11 @@
     <title type="html">希望工作室</title>
     <id>https://hope-studio.innenu.com/</id>
     <link href="https://hope-studio.innenu.com/"/>
-    <updated>2021-02-03T13:37:13.000Z</updated>
+    <updated>2021-03-12T11:39:28.000Z</updated>
     <content type="html"><![CDATA[<h2 id="工作室介绍"> 工作室介绍</h2>
 <ul>
 <li>
-<p><a href="./about/">成员介绍</a></p>
+<p><a href="./about/">工作室介绍</a></p>
 </li>
 <li>
 <p><a href="./resource/">培训资料参考</a></p>
@@ -391,6 +391,7 @@
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
+    <published>2020-09-13T13:15:37.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>

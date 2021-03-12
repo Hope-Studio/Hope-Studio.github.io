@@ -6,8 +6,8 @@
     <link>https://hope-studio.innenu.com/</link>
     <description>希望工作室官网</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 25 Feb 2021 02:37:09 GMT</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 02:37:09 GMT</lastBuildDate>
+    <pubDate>Fri, 12 Mar 2021 11:42:38 GMT</pubDate>
+    <lastBuildDate>Fri, 12 Mar 2021 11:42:38 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright © 2017-present Hope Studio</copyright>
@@ -162,7 +162,7 @@
 <p>真诚提示您: 不必花费大半年学习一个不感兴趣，毕业后不会使用的技能。</p>
 </div>
 <h3 id="自律、自觉"> 自律、自觉 ⚠️</h3>
-<p>工作室任务按周分配，请<strong>自主学习、工作</strong>。</p>
+<p>在学习阶段我们采取道尔顿制教学方式，在工作阶段工作室任务按周分配，请<strong>自主学习、工作</strong>。</p>
 <div><p>注意</p>
 <p>工作室不会成天拎着您的耳朵喊您学习或工作。</p>
 <p>所以如果您“不自律不自觉，动不动就忘了学”，请不要报名。</p>
@@ -322,10 +322,11 @@
       <link>https://hope-studio.innenu.com/</link>
       <guid>https://hope-studio.innenu.com/</guid>
       <source url="https://hope-studio.innenu.com/rss.xml">希望工作室</source>
+      <pubDate>Sun, 13 Sep 2020 13:15:37 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="工作室介绍"> 工作室介绍</h2>
 <ul>
 <li>
-<p><a href="./about/">成员介绍</a></p>
+<p><a href="./about/">工作室介绍</a></p>
 </li>
 <li>
 <p><a href="./resource/">培训资料参考</a></p>

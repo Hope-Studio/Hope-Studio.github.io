@@ -14,11 +14,11 @@
   "author": "Mr.Hope",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "1.8.0",
-    "vuepress-theme-hope": "1.9.5"
+    "vuepress": "1.8.2",
+    "vuepress-theme-hope": "1.13.4"
   },
   "devDependencies": {
-    "markdownlint-cli": "0.26.0",
+    "markdownlint-cli": "0.27.1",
     "prettier": "2.2.1"
   }
 }

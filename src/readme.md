@@ -19,7 +19,7 @@ footer: '<a href="http://beian.miit.gov.cn/" target="_blank">备案号: 辽ICP�
 
 ## 工作室介绍
 
-- [成员介绍](about/readme.md)
+- [工作室介绍](about/readme.md)
 
 - [培训资料参考](resource/readme.md)
 

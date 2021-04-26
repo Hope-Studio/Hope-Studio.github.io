@@ -70,7 +70,7 @@ module.exports = config({
     },
 
     mdEnhance: {
-      enableAll: true,
+      presentaion: true,
     },
 
     lastUpdate: {

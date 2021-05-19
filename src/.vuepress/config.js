@@ -19,6 +19,12 @@ module.exports = config({
   temp: "./node_modules/.temp/doc/",
   dest: "./dist",
 
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
+
   themeConfig: {
     baseLang: "zh-CN",
     logo: "/logo.png",
@@ -64,9 +70,8 @@ module.exports = config({
     hostname: "https://hope-studio.innenu.com",
 
     comment: {
-      type: "valine",
-      appId: "2jQJfhjStNwFWKa1YBL1XFSI-gzGzoHsz",
-      appKey: "UgkCbHl7agg9y2uRCAu0Pcwp",
+      type: "waline",
+      serverURL: "https://hope-studio-comment.innenu.com",
     },
 
     mdEnhance: {

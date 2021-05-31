@@ -179,6 +179,20 @@ Mr.Hope 是一个非常和气的人。😎
 
 <!-- .slide: data-auto-animate -->
 
+## 前端开发成员
+
+<!-- .element: class="r-fit-text" -->
+
+### 贾艺浩
+
+经济与管理学院2019级本科生
+
+冲冲冲:fire::fire::fire:
+
+--
+
+<!-- .slide: data-auto-animate -->
+
 ## 后端开发成员
 
 <!-- .element: class="r-fit-text" -->

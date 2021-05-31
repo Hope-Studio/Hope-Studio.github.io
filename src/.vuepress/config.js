@@ -71,7 +71,7 @@ module.exports = config({
 
     comment: {
       type: "waline",
-      serverURL: "https://hope-studio-comment.innenu.com",
+      serverURL: "https://hope-studio-comment.vercel.app",
     },
 
     mdEnhance: {

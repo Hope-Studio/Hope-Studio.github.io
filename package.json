@@ -18,7 +18,7 @@
     "vuepress-theme-hope": "1.20.5"
   },
   "devDependencies": {
-    "markdownlint-cli": "0.29.0",
+    "markdownlint-cli": "0.30.0",
     "prettier": "2.4.1"
   }
 }

@@ -2,7 +2,7 @@
 title: 主要内容
 icon: discover
 author: Mr.Hope
-time: 2020-09-13
+date: 2020-09-13
 ---
 
 ## 主要学习内容

@@ -2,7 +2,7 @@
 title: 工作室介绍
 icon: info
 author: Mr.Hope
-time: 2020-09-13
+date: 2020-09-13
 layout: Slide
 ---
 
@@ -27,12 +27,15 @@ layout: Slide
 ### 简介
 
 希望工作室成立于 2017 年。
+
 <!-- .element: class="fragment fade-up" -->
 
 是一家年轻、有活力的工作室。
+
 <!-- .element: class="fragment fade-up" -->
 
 现共有成员 17 人。
+
 <!-- .element: class="fragment fade-up" -->
 
 --
@@ -185,7 +188,7 @@ Mr.Hope 是一个非常和气的人。😎
 
 ### 贾艺浩
 
-经济与管理学院2019级本科生
+经济与管理学院 2019 级本科生
 
 冲冲冲:fire::fire::fire:
 

@@ -5,9 +5,9 @@ title: 希望工作室
 heroImage: /logo.png
 heroText: 希望工作室
 tagline: Where there is light, there is hope.
-action:
+actions:
   - text: 工作室介绍 💡
-    link: /about/
+    link: /about.html
     type: primary
 
   - text: 加入我们 ❤
@@ -19,13 +19,13 @@ footer: '<a href="http://beian.miit.gov.cn/" target="_blank">备案号: 辽ICP�
 
 ## 工作室介绍
 
-- [工作室介绍](about/readme.md)
+- [工作室介绍](about.md)
 
-- [培训资料参考](resource/readme.md)
+- [培训资料参考](resource/README.md)
 
 ## 工作室招新
 
-- [招新总览](invite/readme.md)
+- [招新总览](invite/README.md)
 
 - [学习与工作内容](invite/content.md)
 

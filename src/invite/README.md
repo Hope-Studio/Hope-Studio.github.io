@@ -2,7 +2,7 @@
 title: 工作室招新
 icon: profile
 author: Mr.Hope
-time: 2020-09-13
+date: 2020-09-13
 ---
 
 希望工作室长期招新。
@@ -41,4 +41,4 @@ time: 2020-09-13
 
 - [工作室须知](notice.md)
 
-- [工作室成员介绍](../about/readme.md)
+- [工作室成员介绍](../about/README.md)

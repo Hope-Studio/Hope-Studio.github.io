@@ -1,24 +1,23 @@
 {
   "name": "hope-studio",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Official website for Hope Studio",
   "scripts": {
     "build": "vuepress build src",
-    "build:super": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build src",
+    "dev": "vuepress dev src",
+    "dev:clean": "vuepress dev src --clean-cache",
     "lint": "prettier --check --write . && markdownlint **/*.md --ignore node_modules --fix",
     "lint:check": "prettier --check . && markdownlint **/*.md --ignore node_modules",
-    "serve": "vuepress dev src",
-    "serve:clean": "vuepress dev src --no-cache",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "author": "Mr.Hope",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "1.8.2",
-    "vuepress-theme-hope": "1.20.5"
+    "vuepress": "2.0.0-beta.35",
+    "vuepress-theme-hope": "2.0.0-alpha.23"
   },
   "devDependencies": {
-    "markdownlint-cli": "0.29.0",
-    "prettier": "2.4.1"
+    "markdownlint-cli": "0.31.1",
+    "prettier": "2.5.1"
   }
 }

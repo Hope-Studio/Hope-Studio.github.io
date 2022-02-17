@@ -2,7 +2,7 @@
 title: 招新要求
 icon: notice
 author: Mr.Hope
-time: 2020-09-13
+date: 2020-09-13
 ---
 
 工作室没有太多的要求，相关信息已经在下方详细列出。

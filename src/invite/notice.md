@@ -2,7 +2,7 @@
 title: 情况说明
 icon: info
 author: Mr.Hope
-time: 2020-09-13
+date: 2020-09-13
 ---
 
 下面是根据大家的常见问题，对工作室相关情况进行的解答。

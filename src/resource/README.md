@@ -2,7 +2,7 @@
 title: 学习资源
 icon: info
 author: Mr.Hope
-time: 2020-09-13
+date: 2020-09-13
 ---
 
 工作室的主要学习和参考均为 [Mr.Hope 的博客](https://mrhope.site)很多博文也是单独为了培训而书写的。

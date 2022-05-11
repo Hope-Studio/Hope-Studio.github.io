@@ -41,4 +41,4 @@ date: 2020-09-13
 
 - [工作室须知](notice.md)
 
-- [工作室成员介绍](../about/README.md)
+- [工作室成员介绍](../about.md)

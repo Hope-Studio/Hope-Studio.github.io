@@ -1,7 +1,7 @@
-import { defineHopeConfig } from "vuepress-theme-hope";
-import themeConfig from "./themeConfig";
+import { defineUserConfig } from "vuepress";
+import theme from "./theme";
 
-export default defineHopeConfig({
+export default defineUserConfig({
   dest: "./dist",
 
   head: [
@@ -22,5 +22,5 @@ export default defineHopeConfig({
     },
   },
 
-  themeConfig,
+  theme,
 });

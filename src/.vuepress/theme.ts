@@ -1,6 +1,6 @@
-import { defineThemeConfig } from "vuepress-theme-hope";
+import { hopeTheme } from "vuepress-theme-hope";
 
-export default defineThemeConfig({
+export default hopeTheme({
   hostname: "https://hope-studio.innenu.com",
 
   author: {

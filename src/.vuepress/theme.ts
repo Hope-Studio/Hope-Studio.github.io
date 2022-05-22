@@ -8,6 +8,7 @@ export default hopeTheme({
     url: "https://mrhope.site",
   },
 
+  iconAssets: "//at.alicdn.com/t/font_2410206_kxwb6og9m5.css",
   iconPrefix: "iconfont icon-",
 
   logo: "/logo.png",

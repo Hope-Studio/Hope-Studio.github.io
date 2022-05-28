@@ -13,10 +13,10 @@
   "author": "Mr.Hope",
   "license": "MIT",
   "dependencies": {
-    "@vuepress/client": "2.0.0-beta.45",
-    "vue": "3.2.35",
-    "vuepress": "2.0.0-beta.45",
-    "vuepress-theme-hope": "2.0.0-beta.69"
+    "@vuepress/client": "2.0.0-beta.46",
+    "vue": "3.2.36",
+    "vuepress": "2.0.0-beta.46",
+    "vuepress-theme-hope": "2.0.0-beta.74"
   },
   "devDependencies": {
     "markdownlint-cli": "0.31.1",

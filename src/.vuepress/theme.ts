@@ -48,8 +48,13 @@ export default hopeTheme({
 
   plugins: {
     comment: {
-      type: "waline",
+      provider: "Waline",
       serverURL: "https://hope-studio-comment.vercel.app",
+      walineLocales: {
+        "/": {
+          placeholder: "评论时请留下你的邮箱以便收到回复通知",
+        },
+      },
     },
 
     mdEnhance: {

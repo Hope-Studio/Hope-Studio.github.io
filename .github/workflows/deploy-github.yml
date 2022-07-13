@@ -58,5 +58,6 @@ jobs:
 
       - name: Deploy
         run: |
+          ssh git@hope-studio.innenu.com "git config --global --add safe.directory /www/wwwroot/hope-studio"
           git push -f git@hope-studio.innenu.com:/www/wwwroot/hope-studio gh-pages
           ssh git@hope-studio.innenu.com "cd /www/wwwroot/hope-studio && git reset --hard HEAD"

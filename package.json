@@ -13,16 +13,16 @@
   "author": "Mr.Hope",
   "license": "MIT",
   "dependencies": {
-    "@vuepress/client": "2.0.0-beta.51",
-    "vue": "3.2.40",
-    "vuepress": "2.0.0-beta.51",
-    "vuepress-theme-hope": "2.0.0-beta.109"
+    "@vuepress/client": "2.0.0-beta.53",
+    "vue": "3.2.41",
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-theme-hope": "2.0.0-beta.119"
   },
   "devDependencies": {
     "markdownlint-cli": "0.32.2",
     "prettier": "2.7.1"
   },
-  "packageManager": "pnpm@7.13.4",
+  "packageManager": "pnpm@7.14.1",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [

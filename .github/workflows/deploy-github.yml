@@ -1,4 +1,4 @@
-name: Deploy blog to github pages
+name: Deploy Site
 
 on:
   push:
@@ -12,24 +12,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
           submodules: true
           fetch-depth: 0
 
-      - uses: actions/cache@v3
-        id: node-modules
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
         with:
-          path: node_modules/
-          key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node-modules-
+          version: 7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
 
       - name: Install Deps
-        if: steps.node-modules.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
-      - name: Build Website
-        run: yarn run build
+      - name: Build Site
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: pnpm build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
@@ -37,7 +40,7 @@ jobs:
           branch: gh-pages
           folder: dist
 
-  deploy:
+  deploy-server:
     runs-on: ubuntu-latest
     needs: deploy-gh-pages
     steps:
@@ -54,8 +57,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan hope-studio.innenu.com >> ~/.ssh/known_hosts
           git config --global user.name 'Mr.Hope'
-          git config --global user.email 'zhangbowang1998@gmail.com'
-
+          git config --global user.email 'mister-hope@outlook.com'
       - name: Deploy
         run: |
           ssh git@hope-studio.innenu.com "git config --global --add safe.directory /www/wwwroot/hope-studio"

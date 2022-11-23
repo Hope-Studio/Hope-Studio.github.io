@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@vuepress/client': 2.0.0-beta.53
   markdownlint-cli: 0.32.2
-  prettier: 2.7.1
+  prettier: 2.8.0
   vue: 3.2.45
   vuepress: 2.0.0-beta.53
   vuepress-theme-hope: 2.0.0-beta.125
@@ -16,7 +16,7 @@ dependencies:
 
 devDependencies:
   markdownlint-cli: 0.32.2
-  prettier: 2.7.1
+  prettier: 2.8.0
 
 packages:
 
@@ -4289,8 +4289,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.0:
+    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

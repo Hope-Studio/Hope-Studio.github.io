@@ -16,7 +16,7 @@
     "@vuepress/client": "2.0.0-beta.53",
     "vue": "3.2.45",
     "vuepress": "2.0.0-beta.53",
-    "vuepress-theme-hope": "2.0.0-beta.129"
+    "vuepress-theme-hope": "2.0.0-beta.130"
   },
   "devDependencies": {
     "markdownlint-cli": "0.32.2",

@@ -1,6 +1,6 @@
 ---
 title: 学习资源
-icon: info
+icon: book
 author: Mr.Hope
 date: 2020-09-13
 ---

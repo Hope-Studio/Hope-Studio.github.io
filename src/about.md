@@ -1,6 +1,6 @@
 ---
 title: 工作室介绍
-icon: info
+icon: circle-info
 author: Mr.Hope
 date: 2020-09-13
 layout: Slide

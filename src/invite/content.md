@@ -1,6 +1,6 @@
 ---
-title: 主要内容
-icon: discover
+title: 学习内容
+icon: route
 author: Mr.Hope
 date: 2020-09-13
 ---

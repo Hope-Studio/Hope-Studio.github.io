@@ -1,6 +1,6 @@
 ---
 title: 工作室招新
-icon: profile
+icon: user-plus
 author: Mr.Hope
 date: 2020-09-13
 ---

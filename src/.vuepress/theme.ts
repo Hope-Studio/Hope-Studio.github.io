@@ -8,8 +8,7 @@ export default hopeTheme({
     url: "https://mrhope.site",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_2410206_kxwb6og9m5.css",
-  iconPrefix: "iconfont icon-",
+  iconAssets: "fontawesome",
 
   logo: "/logo.png",
 
@@ -21,7 +20,7 @@ export default hopeTheme({
     "/about",
     {
       text: "招新",
-      icon: "profile",
+      icon: "user-plus",
       prefix: "/invite/",
       children: ["", "content", "need", "notice"],
     },
@@ -34,9 +33,9 @@ export default hopeTheme({
       "resource/",
       {
         text: "工作室招新",
-        icon: "profile",
+        icon: "user-plus",
         prefix: "invite/",
-        collapsable: false,
+        collapsible: false,
         children: ["", "content", "need", "notice"],
       },
     ],
@@ -50,7 +49,7 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://hope-studio-comment.vercel.app",
-      walineLocales: {
+      locales: {
         "/": {
           placeholder: "评论时请留下你的邮箱以便收到回复通知",
         },

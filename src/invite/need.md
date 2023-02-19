@@ -1,6 +1,6 @@
 ---
 title: 招新要求
-icon: notice
+icon: list-check
 author: Mr.Hope
 date: 2020-09-13
 ---

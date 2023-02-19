@@ -1,6 +1,6 @@
 ---
 title: 情况说明
-icon: info
+icon: circle-info
 author: Mr.Hope
 date: 2020-09-13
 ---

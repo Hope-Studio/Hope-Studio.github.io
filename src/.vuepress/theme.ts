@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 export default hopeTheme({
   hostname: "https://hope-studio.innenu.com",
+  favicon: "/favicon.ico",
 
   author: {
     name: "Mr.Hope",
@@ -58,49 +59,6 @@ export default hopeTheme({
 
     mdEnhance: {
       presentation: true,
-    },
-
-    pwa: {
-      favicon: "/favicon.ico",
-      themeColor: "#5c92d1",
-      apple: {
-        statusBarColor: "white",
-        icon: "/assets/icon/apple-icon-152.png",
-      },
-      msTile: {
-        image: "/assets/icon/ms-icon-144.png",
-        color: "#ffffff",
-      },
-      manifest: {
-        icons: [
-          {
-            src: "/assets/icon/chrome-192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
-            purpose: "maskable",
-            type: "image/png",
-          },
-        ],
-        shortcuts: [
-          { name: "关于工作室", url: "/about.html" },
-          { name: "纳新说明", url: "/invite/need/" },
-        ],
-      },
     },
   },
 });

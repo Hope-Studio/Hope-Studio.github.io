@@ -5,30 +5,28 @@ title: 希望工作室
 heroImage: /logo.png
 heroText: 希望工作室
 tagline: Where there is light, there is hope.
-actions:
-  - text: 工作室介绍 💡
-    link: /about.html
-    type: primary
+features:
+  - header: 工作室概况
+    items:
+      - title: 工作室介绍
+        link: /about.html
 
-  - text: 加入我们 ❤
-    link: /invite/
-    type: primary
+      - title: 培训资料参考
+        link: /resource/
+
+  - header: 工作室招新
+    items:
+      - title: 招新总览
+        link: /invite/
+
+      - title: 学习与工作内容
+        link: /invite/content.html
+
+      - title: 招新要求
+        link: /invite/need.html
+
+      - title: 招新须知
+        link: /invite/notice.html
 
 footer: '<a href="http://beian.miit.gov.cn/" target="_blank">备案号: 辽ICP备18007023-4号</a>'
 ---
-
-## 工作室介绍
-
-- [工作室介绍](about.md)
-
-- [培训资料参考](resource/README.md)
-
-## 工作室招新
-
-- [招新总览](invite/README.md)
-
-- [学习与工作内容](invite/content.md)
-
-- [招新要求](invite/need.md)
-
-- [招新须知](invite/notice.md)

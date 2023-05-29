@@ -1,4 +1,4 @@
-name: Test blog build
+name: Build Test
 
 on:
   push:
@@ -13,20 +13,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
-          submodules: true
+          fetch-depth: 0
 
-      - uses: actions/cache@v3
-        id: node-modules
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
         with:
-          path: node_modules/
-          key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node-modules-
+          run_install: true
 
-      - name: Install Deps
-        if: steps.node-modules.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
 
-      - name: Build Website
-        run: yarn run build
+      - name: Build Site
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: pnpm build

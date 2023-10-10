@@ -58,7 +58,7 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      presentation: true,
+      revealjs: true,
     },
   },
 });

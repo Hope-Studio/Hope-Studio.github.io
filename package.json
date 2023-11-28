@@ -12,13 +12,14 @@
   },
   "author": "Mr.Hope",
   "license": "MIT",
-  "packageManager": "pnpm@8.10.5",
+  "packageManager": "pnpm@8.11.0",
   "dependencies": {
     "@vuepress/client": "2.0.0-rc.0",
+    "@waline/client": "2",
     "reveal.js": "5.0.2",
-    "vue": "3.3.8",
+    "vue": "3.3.9",
     "vuepress": "2.0.0-rc.0",
-    "vuepress-theme-hope": "2.0.0-rc.0"
+    "vuepress-theme-hope": "2.0.0-rc.1"
   },
   "devDependencies": {
     "markdownlint-cli": "0.37.0",

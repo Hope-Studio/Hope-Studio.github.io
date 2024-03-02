@@ -16,7 +16,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.8",
     "@waline/client": "3.1.2",
     "reveal.js": "5.0.5",
-    "vue": "3.4.19",
+    "vue": "3.4.21",
     "vuepress": "2.0.0-rc.8",
     "vuepress-theme-hope": "2.0.0-rc.25"
   },

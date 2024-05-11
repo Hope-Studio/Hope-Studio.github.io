@@ -18,7 +18,7 @@
     "reveal.js": "5.1.0",
     "vue": "3.4.26",
     "vuepress": "2.0.0-rc.9",
-    "vuepress-theme-hope": "2.0.0-rc.38"
+    "vuepress-theme-hope": "2.0.0-rc.40"
   },
   "devDependencies": {
     "markdownlint-cli": "0.40.0",
